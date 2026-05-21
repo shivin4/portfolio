@@ -81,3 +81,5 @@ export const logiclens: Project = {
     },
   ],
 };
+
+// LogicLens v1.1.0 — public release: https://shivin4.github.io/logiclens/
