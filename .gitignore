@@ -38,9 +38,13 @@ yarn-error.log*
 AGENTS.md
 CLAUDE.md
 
+# Local-only dev scripts (git history helpers — not part of the site)
+/scripts/
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
