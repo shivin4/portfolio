@@ -15,6 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://shivin.dev"),
   title: "Shivin Khandelwal | AI Engineer & Builder",
   description:
     "Cinematic digital identity of Shivin Khandelwal — AI engineer, full stack builder, hackathon innovator. Exploring intelligent systems with human-centered design.",
@@ -27,11 +28,17 @@ export const metadata: Metadata = {
     "Accessibility",
   ],
   authors: [{ name: "Shivin Khandelwal" }],
+  icons: {
+    icon: [{ url: "/logo.png", type: "image/png" }],
+    apple: [{ url: "/apple-icon.png", type: "image/png" }],
+  },
   openGraph: {
     title: "Shivin Khandelwal | Neural Workspace",
     description:
       "Enter the digital brain of an AI engineer and builder — projects, experiments, and mission logs.",
     type: "website",
+    url: "https://shivin.dev",
+    images: [{ url: "/logo.png", width: 512, height: 512, alt: "Shivin Khandelwal" }],
   },
 };
 
