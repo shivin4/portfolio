@@ -129,6 +129,12 @@ export function Contact() {
 
   const channels = [
     {
+      label: "Resume",
+      href: "/resume.pdf",
+      code: "DOC-00",
+      detail: "shivin.dev/resume.pdf",
+    },
+    {
       label: "LinkedIn",
       href: siteConfig.linkedin,
       code: "LNK-01",

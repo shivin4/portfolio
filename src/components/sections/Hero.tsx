@@ -151,6 +151,14 @@ export function Hero() {
             >
               Open Channel →
             </a>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="glass-panel rounded-lg px-5 py-2.5 font-mono text-sm text-cyan-400 transition-colors hover:text-white hover:border-cyan-500/50 sm:px-6 sm:py-3"
+            >
+              Resume ↗
+            </a>
           </div>
         </motion.div>
 

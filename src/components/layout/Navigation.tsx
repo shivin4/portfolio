@@ -54,12 +54,22 @@ export function Navigation() {
           ))}
         </ul>
 
-        <div className="flex items-center gap-2 font-mono text-[10px] text-emerald-400/80">
-          <span className="relative flex h-2 w-2">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
-            <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
-          </span>
-          ONLINE
+        <div className="flex items-center gap-4">
+          <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hidden font-mono text-xs uppercase tracking-wider text-cyan-400 hover:text-cyan-300 md:inline-block"
+          >
+            Resume ↗
+          </a>
+          <div className="flex items-center gap-2 font-mono text-[10px] text-emerald-400/80">
+            <span className="relative flex h-2 w-2">
+              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
+              <span className="relative inline-flex h-2 w-2 rounded-full bg-emerald-500" />
+            </span>
+            ONLINE
+          </div>
         </div>
       </nav>
     </motion.header>
